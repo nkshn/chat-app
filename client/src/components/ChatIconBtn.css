@@ -1,0 +1,12 @@
+.icon-btn {
+  position: absolute;
+  top: 665px;
+  right: 25px;
+}
+.icon {
+  background: #3e55d2;
+  color: white;
+  box-shadow: 2px 1px 4px 1px #334bce;
+  border-radius: 20%;
+  padding: 11px;
+}

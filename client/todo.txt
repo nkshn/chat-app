@@ -1,0 +1,3 @@
+1. Add to message different bubbles style.
+
+P.S.1. https://stackoverflow.com/questions/42256877/how-to-create-chat-bubbles-like-facebook-messenger/42257283
