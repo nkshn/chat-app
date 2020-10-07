@@ -6,7 +6,7 @@ function ChatMessage(props) {
   return (
     <>
       {
-        props.isThisMessageSendByMe === true
+        props.isThisMessageSendByClient === true
           ? <li className="chat-container_body-message sender-me">{props.text}</li>
           : <li className="chat-container_body-message sender-him">{props.text}</li>
       }
@@ -15,7 +15,7 @@ function ChatMessage(props) {
 }
 
 ChatMessage.propTypes = {
-  isThisMessageSendByMe: PropTypes.bool.isRequired,
+  isThisMessageSendByClient: PropTypes.bool.isRequired,
   text: PropTypes.string.isRequired,
 };
 

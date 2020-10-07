@@ -1,15 +1,35 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
 import './ChatSend.css';
 import { BiSend, BiSmile } from 'react-icons/bi';
+import { useDispatch } from 'react-redux';
+import {
+  sendMessage
+} from '../../store/actions/messageActions';
 
 function ChatSend() {
+
+  const dispatch = useDispatch();
+  const textareaRef = useRef(null);
+  const [message, setMessage] = useState('');
+
+  const messageHandler = (event) => {
+    event.preventDefault();
+    setMessage(event.target.value);
+  }
+
   return (
     <>
       <div className="chat-container_send">
-        <textarea placeholder="Type a message..." />
+        <textarea ref={textareaRef} value={message} placeholder="Type a message..." onChange={messageHandler} />
         <div className="chat-container_send-buttons">
           <button><BiSmile color="#3e55d2" size={20} /></button>
-          <button><BiSend color="#3e55d2" size={20} /></button>
+          <button onClick={() => {
+            if (message !== '') {
+              dispatch(sendMessage(message, true));
+              setMessage('');
+              textareaRef.current.focus();
+            }
+          }}><BiSend color="#3e55d2" size={20} /></button>
         </div>
       </div>
     </>
