@@ -1,0 +1,18 @@
+.chat-container_body {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 342px;
+  background: #e6e6e6;
+}
+.chat-container_body-messages-ul {
+  max-height: 320px;
+  overflow-y: overlay;
+  display: flex;
+  flex-direction: column;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 15px;
+  padding-right: 15px;
+}

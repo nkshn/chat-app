@@ -1,0 +1,25 @@
+.chat-container_send {
+  display: flex;
+  height: 74px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.chat-container_send textarea {
+  border: none;
+  font-size: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 90px;
+  height: 60px;
+  width: 330px;
+  resize: none;
+  letter-spacing: -1px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.chat-container_send-buttons {
+  position: absolute;
+  bottom: 40px;
+  right: 13px;
+}
