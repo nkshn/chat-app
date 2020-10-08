@@ -1,0 +1,8 @@
+1. Add to message different bubbles style.
+2. Validation of message text (delete spaces from string)
+3. переноси задопомогою ждава скрипта(провіряти якщо слово більше 20 символів то робити перенос)
+4. Make this in message. (<pre></pre>)
+5. Formating message
+
+P.S.1. https://stackoverflow.com/questions/42256877/how-to-create-chat-bubbles-like-facebook-messenger/42257283
+P.S.3. https://stackoverflow.com/questions/57291801/i-want-the-text-that-is-input-in-textarea-in-same-format

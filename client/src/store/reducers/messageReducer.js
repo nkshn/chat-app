@@ -1,15 +1,13 @@
 const initialState = {
   messages: [
-    /*
-      { isThisMessageSendByClient: true, text: 'message by user 1' },
-      { isThisMessageSendByClient: true, text: 'das dqseq dasd qgdsf qsdq sdagasdf dfasdf wfkdsf skfqsdkasdka kasdkadk' },
-      { isThisMessageSendByClient: false, text: 'das dqseq dasd qgdsf qsdq sdagasdf dfasdf wfkdsf skfqsdkasdka kasdkadk' },
-      { isThisMessageSendByClient: false, text: 'message by user 1' },
-      { isThisMessageSendByClient: true, text: 'message' },
-      { isThisMessageSendByClient: false, text: 'by' },
-      { isThisMessageSendByClient: false, text: 'by user 1 yes' },
-      { isThisMessageSendByClient: true, text: '1' },
-    */
+    { isThisMessageSendByClient: true, text: 'message by< user 1' },
+    { isThisMessageSendByClient: true, text: 'das dqseq dasd qgdsf qsdq sdagasdf dfasdf wfkdsf skfqsdkasdka kasdkadk' },
+    { isThisMessageSendByClient: false, text: 'das dqseq dasd qgdsf qsdq sdagasdf dfasdf wfkdsf skfqsdkasdka kasdkadk' },
+    { isThisMessageSendByClient: false, text: 'message by user 1' },
+    { isThisMessageSendByClient: true, text: 'message' },
+    { isThisMessageSendByClient: false, text: 'by' },
+    { isThisMessageSendByClient: false, text: 'by user 1 yes' },
+    { isThisMessageSendByClient: true, text: '1' },
   ]
 }
 

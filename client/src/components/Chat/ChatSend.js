@@ -23,13 +23,13 @@ function ChatSend() {
         <textarea ref={textareaRef} value={message} placeholder="Type a message..." onChange={messageHandler} />
         <div className="chat-container_send-buttons">
           <button><BiSmile color="#3e55d2" size={20} /></button>
-          <button onClick={() => {
+          <button disabled={message === '' ? true : false} onClick={() => {
             if (message !== '') {
               dispatch(sendMessage(message, true));
               setMessage('');
               textareaRef.current.focus();
             }
-          }}><BiSend color="#3e55d2" size={20} /></button>
+          }}><BiSend color={message === '' ? "#777" : "#3e55d2"} size={20} /></button>
         </div>
       </div>
     </>

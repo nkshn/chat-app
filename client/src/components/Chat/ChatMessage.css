@@ -12,6 +12,7 @@
   text-align: left;
   line-height: 18px;
   font-weight: 400;
+  overflow-wrap: anywhere;
 }
 .sender-him {
   background: white;
