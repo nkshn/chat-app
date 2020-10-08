@@ -1,0 +1,1 @@
+1. add /start button for telegram bot to known chatId at the beginning
